@@ -1,0 +1,16 @@
+[
+{
+  "modid": "worldofdinos",
+  "name": "World of Dinos",
+  "description": "Allows Fossils & Arch dinosaurs to spawn in a specified dimension.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authors": ["CannibalVox"],
+  "credits": "Cannibal Vox (Special thanks to the B-Team)",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

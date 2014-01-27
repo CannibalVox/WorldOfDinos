@@ -4,3 +4,10 @@
 *.jar
 *.war
 *.ear
+.gradle/
+build/
+eclipse/
+gradle/
+out/
+gradlew
+gradlew.bat
