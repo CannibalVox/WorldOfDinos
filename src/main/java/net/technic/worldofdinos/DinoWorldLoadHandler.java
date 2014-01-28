@@ -29,6 +29,8 @@ public class DinoWorldLoadHandler {
 
 	@ForgeSubscribe
 	public void WorldLoad(WorldEvent.Load loadEvent) {
+		if (loadEvent.world.isRemote) { return; }
+
 		for (int i = 0; i < WorldOfDinos.OutfittedBiomeList.size(); i++) {
 			Integer biomeId = WorldOfDinos.OutfittedBiomeList.get(i);
 			int intBiomeId = biomeId.intValue();
