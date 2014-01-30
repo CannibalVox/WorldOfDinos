@@ -62,8 +62,8 @@ public class DinoWorldLoadHandler {
 	}
 
 	private void outfitWaterSpawnList(List biomeSpawnList) {
-		biomeSpawnList.add(new SpawnListEntry(EntityNautilus.class, 10, 4, 14));
-		biomeSpawnList.add(new SpawnListEntry(EntityPlesiosaur.class, 5, 1, 4));
-		biomeSpawnList.add(new SpawnListEntry(EntityMosasaurus.class, 1, 1, 1));
+		biomeSpawnList.add(new SpawnListEntry(EntityNautilus.class, 20, 4, 14));
+		biomeSpawnList.add(new SpawnListEntry(EntityPlesiosaur.class, 10, 1, 4));
+		//biomeSpawnList.add(new SpawnListEntry(EntityMosasaurus.class, 1, 1, 1));
 	}
 }
